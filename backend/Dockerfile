@@ -1,4 +1,4 @@
-FROM nodejs:20
+FROM node:20
 RUN useradd expense
 RUN mkdir /opt/server
 RUN chown -R expense:expense /opt/server
